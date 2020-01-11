@@ -2,7 +2,18 @@
 
 ## Getting Started
 
-This application is compatible with the most commonly used web browsers.
+Steps to install application:
+1. Clone repository.
+2. In the directory with server.js run npm install
+3. Start server and answer prompts
+4. HTML Generated
+
+```
+git clone git@github.com:kqarlos/team-profile-generator.git
+npm instal
+node server.js
+
+```
 
 ## Site Pictures
 
@@ -22,23 +33,67 @@ This application is compatible with the most commonly used web browsers.
 ## Code Snippets
 
 
-1. 
+1. nextEmployee();
 
 ```javascript
 
-
+nextEmployee() {
+    this.promptRole().then((role) => {
+        if (role === "Exit") {
+            this.renderHTML();
+            this.end();
+            }
+        else {
+            this.promptInfo(role).then((data) => {
+                switch (role) {
+                    case "Manager":
+                        var employee = new Manager(data.name data.id, data.email, data.officeN);
+                        break;
+                    case "Engineer":
+                        var employee = new Engineer(data.name, data.id, data.email, data.github);
+                        break;
+                    case "Intern":
+                        var employee = new Intern(data.name, data.id, data.email, data.school);
+                        break;
+                }
+                this.employees.push(employee);
+                this.nextEmployee();
+            });
+        }
+    });
+}
     
 ```
-* Description:
+* This function uses recursion to keep gathering employee information from the user until the user quits the program. It calls on a function that will prompt the user to select to either add an employee or to exit the application. If the user decides to exit, the application will call to generate the team profile HTML and end the appliciaton. Otherwise, it will ask user for further information on the employee and create a new _Employee_ object based on that information. Next, it will call itself to prompt the user again whether to add another employee or exit the application.
 
 
-2. 
+2. promptInfo(role)
 
 ```javascript
 
+    //prompt user for employee information and return it
+    promptInfo(role) {
+        switch (role) {
+            case "Manager":
+                return inquirer.prompt(this.managerPrompt).then(function (data) {
+                    return data;
+                });
+                break;
+            case "Engineer":
+                return inquirer.prompt(this.engineerPrompt).then(function (data) {
+                    return data;
+                });
+                break;
+            case "Intern":
+                return inquirer.prompt(this.internPrompt).then(function (data) {
+                    return data;
+                });
+                break;
+        }
+    }
 
 ```
-* Description:
+* This function will return a function that will prompt the user to input information according to the type of employee they've chosen. This function comes with a promise that returns the data collected by _inquirer.prompt()_
 
 
 ## Built With
@@ -47,11 +102,11 @@ This application is compatible with the most commonly used web browsers.
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Bootstrap](https://getbootstrap.com/)
 * [Javascript](https://www.javascript.com/)
-* [Moment.js](https://momentjs.com/docs/)
+* [Node.js](https://nodejs.org/en/)
 
 ## Deployed Link
 
-* [See Live Site](https://kqarlos.github.io/)
+* [See Live Site](https://kqarlos.github.io/team-profile-generator)
 
 ## Author
 
