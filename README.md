@@ -17,18 +17,14 @@ node server.js
 
 ## Site Pictures
 
-1. 
+1. Working app
 
-![Site](assets/images/.png)
+![Site](assets/live.gif)
 
-2. 
+2. Example of a team profile generated
 
-![Site](assets/images/.png)
+![Site](assets/team-profile.png)
 
-
-3. 
-
-![Site](assets/images/.png)
 
 ## Code Snippets
 
