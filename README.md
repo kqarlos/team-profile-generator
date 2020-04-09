@@ -110,7 +110,7 @@ nextEmployee() {
 
 ## Links
 
-- [Link to site repository](https://github.com/kqarlos/)
+- [Link to site repository](https://github.com/kqarlos/team-profile-generator)
 - [Link to Github](https://www.github.com/kqarlos)
 - [Link to LinkedIn](https://www.linkedin.com/in/carlos-toledo415/)
 
