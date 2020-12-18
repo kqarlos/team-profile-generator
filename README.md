@@ -149,5 +149,5 @@ nextEmployee() {
 
 </br>
 <p align="center">
-    <img align="center" src="https://img.shields.io/github/license/kqarlos/fitness-tracker?style=for-the-badge" alt="MIT license" />
+    <img align="center" src="https://img.shields.io/github/license/kqarlos/team-profile-generator?style=for-the-badge" alt="MIT license" />
 </p>
