@@ -1,6 +1,33 @@
 # Team Profile Generator
 
-## Getting Started
+</br>
+<p align="center">
+    <img src="https://img.shields.io/github/languages/count/kqarlos/team-profile-generator?style=for-the-badge" alt="Languages" />
+    <img src="https://img.shields.io/github/languages/top/kqarlos/team-profile-generator?style=for-the-badge" alt="Top Language" />
+    <img src="https://img.shields.io/github/languages/code-size/kqarlos/team-profile-generator?style=for-the-badge" alt="Code Size" />
+    <img src="https://img.shields.io/github/repo-size/kqarlos/team-profile-generator?style=for-the-badge" alt="Repo Size" />   
+    <img src="https://img.shields.io/tokei/lines/github/kqarlos/team-profile-generator?style=for-the-badge" alt="Total Lines" />
+    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/team-profile-generator/inquirer?style=for-the-badge" alt="Inquirer Version" />
+    <img src="https://img.shields.io/github/last-commit/kqarlos/team-profile-generator?style=for-the-badge" alt="Last Commit" />  
+    <img src="https://img.shields.io/github/issues/kqarlos/team-profile-generator?style=for-the-badge" alt="Issues" />  
+    <img src="https://img.shields.io/github/followers/kqarlos?style=social" alt="Followers" />  
+</p>
+
+
+## Description
+
+Create an HTML profile for your whole developer team by answering questions on the command line.
+
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+    * [Screenshots](#screenshots)
+    * [Snippets](#snippets)
+* [Credits](#credits)
+* [License](#license)
+
+## Installation
 
 Steps to install application:
 1. Clone repository.
@@ -15,7 +42,12 @@ node server.js
 
 ```
 
-## Site Pictures
+<p align="center">
+    <a href="https://kqarlos.github.io/team-profile-generator/output/index.html"><img src="https://img.shields.io/badge/-👉 Sample Profile-success?style=for-the-badge"  alt="Sample Site" /></a>
+</p>
+
+## Usage
+### Screenshots
 
 1. Working app
 
@@ -26,7 +58,7 @@ node server.js
 ![Site](assets/team-profile.png)
 
 
-## Code Snippets
+### Snippets
 
 
 1. nextEmployee();
@@ -91,32 +123,31 @@ nextEmployee() {
 ```
 * This function will return a function that will prompt the user to input information according to the type of employee they've chosen. This function comes with a promise that returns the data collected by _inquirer.prompt()_
 
+## Credits
 
-## Built With
+### Author
 
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Bootstrap](https://getbootstrap.com/)
-* [Javascript](https://www.javascript.com/)
-* [Node.js](https://nodejs.org/en/)
-
-## Deployed Link
-
-* [See Live Site](https://kqarlos.github.io/team-profile-generator)
-
-## Author
-
- * **Carlos Toledo** 
-
-## Links
-
-- [Link to site repository](https://github.com/kqarlos/team-profile-generator)
-- [Link to Github](https://www.github.com/kqarlos)
-- [Link to LinkedIn](https://www.linkedin.com/in/carlos-toledo415/)
+- 💼 Carlos Toledo: [portfolio](https://professional-portfolio2020.herokuapp.com/)
+- :octocat: Github: [kqarlos](https://www.github.com/kqarlos)
+- LinkedIn: [carlos-toledo415](https://www.linkedin.com/in/carlos-toledo415/)
 
 
-## Acknowledgments
+### Built With
 
-* [W3 Schools](https://www.w3schools.com/)
-* [Bootstrap components](https://getbootstrap.com/docs/4.4/components/navbar/)
-* [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+</br>
+<p align="center">
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/-HTML-orange?style=for-the-badge"  alt="HMTL" /></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/-CSS-blue?style=for-the-badge" alt="CSS" /></a>
+    <a href="https://www.javascript.com/"><img src="https://img.shields.io/badge/-Javascript-yellow?style=for-the-badge" alt="Javascript" /></a>
+    <a href="https://getbootstrap.com/"><img src="https://img.shields.io/badge/-Bootstrap-blueviolet?style=for-the-badge" alt="Bootstrap" /></a>
+    <a href="https://nodejs.org/en/"><img src="https://img.shields.io/badge/-Node-orange?style=for-the-badge" alt="Node" /></a>
+    <a href="https://www.npmjs.com/package/inquirer"><img src="https://img.shields.io/badge/-Inquirer-blue?style=for-the-badge" alt="Inquirer" /></a>
+    <a href="https://www.npmjs.com/package/jest"><img src="https://img.shields.io/badge/-Jest-blue?style=for-the-badge" alt="Jest" /></a>
+</p>
+
+## License
+
+</br>
+<p align="center">
+    <img align="center" src="https://img.shields.io/github/license/kqarlos/fitness-tracker?style=for-the-badge" alt="MIT license" />
+</p>
