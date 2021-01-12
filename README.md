@@ -56,7 +56,7 @@ node server.js
 2. Example of a team profile generated
 
 ![Site](assets/team-profile.png)
-![image of Site](assets/team-profile2.png)
+![image of Site](assets/team-profile2.PNG)
 
 
 
