@@ -10,6 +10,7 @@
     <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/team-profile-generator/inquirer?style=for-the-badge" alt="Inquirer Version" />
     <img src="https://img.shields.io/github/last-commit/kqarlos/team-profile-generator?style=for-the-badge" alt="Last Commit" />  
     <img src="https://img.shields.io/github/issues/kqarlos/team-profile-generator?style=for-the-badge" alt="Issues" />  
+    <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/kqarlos/team-profile-generator?style=for-the-badge">
     <img src="https://img.shields.io/github/followers/kqarlos?style=social" alt="Followers" />  
 </p>
 
